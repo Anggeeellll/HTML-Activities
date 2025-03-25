@@ -7,7 +7,6 @@
 .container{
 display: grid;
 grid-template-columns: 33% 33% 33%;
-width: 800px;
 }
 
 h1{
@@ -56,6 +55,10 @@ cursor: pointer;
 box-shadow: 3px 3px 5px rgba(0,0,0,0.3);
 }
 
+.shadow_button:hover{
+opacity: 0.8;
+}
+
 .shadow_button:active{
 margin-top: 3px;
 margin-left: 3px;
@@ -95,26 +98,25 @@ Recreate the designs below using the Box Model:
 </head>
 
 <body>
-<pre>
 <div class="container">
-<div style="background-color: white;">
-<p1>4i.Stretch</p1><br>
+<div>
+<p1>4i.Stretch</p1><br><br>
 <button class="stretch_button">Stretch</button><br>
 </div>
 
-<div style="background-color: white;">
-<p1>4j. 3D Click</p1><br>
+<div>
+<p1>4j. 3D Click</p1><br><br>
 <button class="shadow_button">Shadow</button><br>
 </div>
 
-<div style="background-color: white;">
-<p1>4k.Margin and padding together</p1><br>
+<div>
+<p1>4k.Margin and padding together</p1><br><br>
 <button class="mnp_button">One</button><button class="mnp_button">Two</button><button class="mnp_button">Three</button><br><br><br><br><br>
 </div>
 </div>
 
 <a href="https://docs.google.com/document/d/1MNQjIwn1SINnDn2OQukXnh8j96AorCGYnhpp4WqsWys/edit?usp=sharing" target="_blank"><button class="ExerciseCode">Exercise Code</button></a>
 
-</pre>
+
 </body>
 </html>
